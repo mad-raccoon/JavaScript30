@@ -90,6 +90,7 @@
         const degSeconds = ((seconds * 360) / 60) + 90;
         handSeconds.style.transform = `rotate(${degSeconds}deg)`
 
+
         const minutes = now.getMinutes();
         const degMinutes = ((minutes * 360) / 60) + 90;
         handMinutes.style.transform = `rotate(${degMinutes}deg)`
@@ -98,6 +99,7 @@
         const degHours = ((hours * 360) / 60) + 90;
         handHours.style.transform = `rotate(${degHours}deg)`
     }
+
 
     setInterval(setDate, 1000);
     </script>
